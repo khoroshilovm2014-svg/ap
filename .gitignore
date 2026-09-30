@@ -1,0 +1,17 @@
+﻿# Node
+node_modules/
+npm-debug.log*
+
+# iOS
+ios/App/Pods/
+ios/App/build/
+ios/App/App/public/
+ios/App/App/capacitor.config.json
+ios/App/App.xcworkspace/xcuserdata/
+ios/App/App.xcodeproj/xcuserdata/
+*.ipa
+*.dSYM.zip
+
+# System
+.DS_Store
+Thumbs.db

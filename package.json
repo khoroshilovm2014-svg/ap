@@ -1,0 +1,13 @@
+{
+  "name": "ap",
+  "version": "1.0.0",
+  "description": "Created with iOS Craft",
+  "scripts": {
+    "sync": "cap sync"
+  },
+  "dependencies": {
+    "@capacitor/cli": "^8.5.2",
+    "@capacitor/core": "^8.5.2",
+    "@capacitor/ios": "^8.5.2"
+  }
+}
