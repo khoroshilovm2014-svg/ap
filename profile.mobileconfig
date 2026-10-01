@@ -38,7 +38,7 @@
     <key>PayloadVersion</key>
     <integer>1</integer>
     <key>PayloadDescription</key>
-    <string>Установка приложения ap</string>
+    <string>Install ap app</string>
     <key>PayloadOrganization</key>
     <string>iOS Craft</string>
 </dict>
