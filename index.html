@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>Telegram App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="avatar">📱</div>
+            <div class="info">
+                <div class="name" id="app-title">My Chat</div>
+                <div class="status">онлайн</div>
+            </div>
+            <button class="menu-btn">⋮</button>
+        </header>
+
+        <main class="chat" id="chat">
+            <div class="message incoming">
+                <div class="bubble">
+                    <p>Привет! Это твой чат-бот 👋</p>
+                    <span class="time">12:00</span>
+                </div>
+            </div>
+            <div class="message incoming">
+                <div class="bubble">
+                    <p>Напиши мне что-нибудь</p>
+                    <span class="time">12:00</span>
+                </div>
+            </div>
+        </main>
+
+        <footer class="input-area">
+            <button class="attach-btn">📎</button>
+            <input type="text" id="message-input" placeholder="Сообщение" autocomplete="off">
+            <button class="send-btn" id="send-btn">➤</button>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
